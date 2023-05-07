@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		DE1327D62A05367E00915F0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1327D52A05367E00915F0D /* AppDelegate.swift */; };
 		DE1327D82A05367E00915F0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1327D72A05367E00915F0D /* SceneDelegate.swift */; };
-		DE1327DA2A05367E00915F0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1327D92A05367E00915F0D /* ViewController.swift */; };
+		DE1327DA2A05367E00915F0D /* ExpensesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1327D92A05367E00915F0D /* ExpensesViewController.swift */; };
 		DE1327DD2A05367E00915F0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1327DB2A05367E00915F0D /* Main.storyboard */; };
 		DE1327DF2A05367F00915F0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1327DE2A05367F00915F0D /* Assets.xcassets */; };
 		DE1327E22A05367F00915F0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1327E02A05367F00915F0D /* LaunchScreen.storyboard */; };
+		DE1327EE2A0571CA00915F0D /* LayoutAnchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1327ED2A0571CA00915F0D /* LayoutAnchors.swift */; };
+		DE1327F02A05C66D00915F0D /* deneme.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1327EF2A05C66D00915F0D /* deneme.swift */; };
+		DE8A97572A07D0A9008DCC23 /* GelirGiderHavale.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8A97562A07D0A9008DCC23 /* GelirGiderHavale.swift */; };
+		DE904AD22A069EC900CB4847 /* RealmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE904AD12A069EC900CB4847 /* RealmModel.swift */; };
+		DE904AD52A069F0F00CB4847 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = DE904AD42A069F0F00CB4847 /* Realm */; };
+		DE904AD72A069F0F00CB4847 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DE904AD62A069F0F00CB4847 /* RealmSwift */; };
+		DE904AD92A06A42500CB4847 /* TrackerDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE904AD82A06A42500CB4847 /* TrackerDAO.swift */; };
+		DE98EC6F2A07C28800F010D0 /* GelirGiderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE98EC6E2A07C28800F010D0 /* GelirGiderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DE1327D22A05367E00915F0D /* Expense Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Expense Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE1327D52A05367E00915F0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE1327D72A05367E00915F0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DE1327D92A05367E00915F0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE1327D92A05367E00915F0D /* ExpensesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesViewController.swift; sourceTree = "<group>"; };
 		DE1327DC2A05367E00915F0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE1327DE2A05367F00915F0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE1327E12A05367F00915F0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE1327E32A05367F00915F0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE1327ED2A0571CA00915F0D /* LayoutAnchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutAnchors.swift; sourceTree = "<group>"; };
+		DE1327EF2A05C66D00915F0D /* deneme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deneme.swift; sourceTree = "<group>"; };
+		DE8A97562A07D0A9008DCC23 /* GelirGiderHavale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GelirGiderHavale.swift; sourceTree = "<group>"; };
+		DE904AD12A069EC900CB4847 /* RealmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmModel.swift; sourceTree = "<group>"; };
+		DE904AD82A06A42500CB4847 /* TrackerDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerDAO.swift; sourceTree = "<group>"; };
+		DE98EC6E2A07C28800F010D0 /* GelirGiderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GelirGiderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE904AD72A069F0F00CB4847 /* RealmSwift in Frameworks */,
+				DE904AD52A069F0F00CB4847 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +72,53 @@
 		DE1327D42A05367E00915F0D /* Expense Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				DE1327EC2A0571A100915F0D /* Extensions */,
+				DE1327EB2A056DE800915F0D /* Controller */,
+				DE1327EA2A056DE400915F0D /* View */,
 				DE1327D52A05367E00915F0D /* AppDelegate.swift */,
 				DE1327D72A05367E00915F0D /* SceneDelegate.swift */,
-				DE1327D92A05367E00915F0D /* ViewController.swift */,
 				DE1327DB2A05367E00915F0D /* Main.storyboard */,
+				DE1327E92A056DDE00915F0D /* Model */,
 				DE1327DE2A05367F00915F0D /* Assets.xcassets */,
 				DE1327E02A05367F00915F0D /* LaunchScreen.storyboard */,
 				DE1327E32A05367F00915F0D /* Info.plist */,
+				DE904AD82A06A42500CB4847 /* TrackerDAO.swift */,
 			);
 			path = "Expense Tracker";
+			sourceTree = "<group>";
+		};
+		DE1327E92A056DDE00915F0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE904AD12A069EC900CB4847 /* RealmModel.swift */,
+				DE8A97562A07D0A9008DCC23 /* GelirGiderHavale.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DE1327EA2A056DE400915F0D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DE1327EB2A056DE800915F0D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DE1327D92A05367E00915F0D /* ExpensesViewController.swift */,
+				DE1327EF2A05C66D00915F0D /* deneme.swift */,
+				DE98EC6E2A07C28800F010D0 /* GelirGiderViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DE1327EC2A0571A100915F0D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DE1327ED2A0571CA00915F0D /* LayoutAnchors.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +137,10 @@
 			dependencies = (
 			);
 			name = "Expense Tracker";
+			packageProductDependencies = (
+				DE904AD42A069F0F00CB4847 /* Realm */,
+				DE904AD62A069F0F00CB4847 /* RealmSwift */,
+			);
 			productName = "Expense Tracker";
 			productReference = DE1327D22A05367E00915F0D /* Expense Tracker.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +169,9 @@
 				Base,
 			);
 			mainGroup = DE1327C92A05367E00915F0D;
+			packageReferences = (
+				DE904AD32A069F0F00CB4847 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = DE1327D32A05367E00915F0D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +199,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE1327DA2A05367E00915F0D /* ViewController.swift in Sources */,
+				DE1327DA2A05367E00915F0D /* ExpensesViewController.swift in Sources */,
+				DE904AD22A069EC900CB4847 /* RealmModel.swift in Sources */,
 				DE1327D62A05367E00915F0D /* AppDelegate.swift in Sources */,
+				DE1327F02A05C66D00915F0D /* deneme.swift in Sources */,
+				DE1327EE2A0571CA00915F0D /* LayoutAnchors.swift in Sources */,
+				DE904AD92A06A42500CB4847 /* TrackerDAO.swift in Sources */,
+				DE98EC6F2A07C28800F010D0 /* GelirGiderViewController.swift in Sources */,
 				DE1327D82A05367E00915F0D /* SceneDelegate.swift in Sources */,
+				DE8A97572A07D0A9008DCC23 /* GelirGiderHavale.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +362,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +391,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,6 +427,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DE904AD32A069F0F00CB4847 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DE904AD42A069F0F00CB4847 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE904AD32A069F0F00CB4847 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		DE904AD62A069F0F00CB4847 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE904AD32A069F0F00CB4847 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DE1327CA2A05367E00915F0D /* Project object */;
 }
